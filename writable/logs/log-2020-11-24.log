@@ -1,0 +1,644 @@
+CRITICAL - 2020-11-24 19:52:13 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(890): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:08:03 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(890): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:10:15 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(890): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:10:16 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(890): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:10:16 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(890): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:11:37 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(890): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:11:39 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(890): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:13:27 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(890): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:13:28 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(890): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:20:47 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:20:48 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:20:48 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:20:48 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:20:55 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:20:55 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:20:55 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:20:55 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:22:12 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:22:12 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:23:15 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:24:02 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:24:04 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:24:04 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:24:04 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:24:05 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:24:05 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:24:08 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:24:11 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:24:11 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:24:19 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:26:31 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:26:31 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:26:33 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 20:26:33 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 21:10:38 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 21:11:16 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 21:11:18 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 21:11:55 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 21:12:06 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 21:12:08 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 21:12:08 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 21:12:17 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 21:12:17 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 21:12:18 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 21:12:18 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 21:12:19 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 21:12:19 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 21:12:19 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 21:12:19 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 21:12:19 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 21:13:04 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 21:30:17 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 21:30:17 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 21:30:56 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 21:31:23 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 21:35:39 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 21:39:37 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 21:39:39 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 21:40:06 --> Call to a member function findAll() on null
+#0 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Profesores->index()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 21:40:26 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 21:42:05 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 21:45:56 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 21:56:05 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 21:56:09 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 22:09:39 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 22:14:47 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 22:14:47 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 22:14:55 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 22:14:56 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 22:30:49 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 22:31:12 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 22:53:40 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 22:54:47 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 22:54:47 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 22:54:48 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 22:54:48 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 22:54:48 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 23:00:04 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 23:00:04 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 23:13:08 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 23:14:13 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 23:14:37 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 23:19:15 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 23:19:16 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 23:19:17 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 23:19:18 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 23:19:18 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 23:19:18 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 23:19:18 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 23:19:18 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 23:19:18 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-24 23:19:19 --> Class 'App\Models\ProfesorModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Profesores->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
