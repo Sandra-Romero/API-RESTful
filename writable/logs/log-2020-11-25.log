@@ -14,3 +14,10 @@ ERROR - 2020-11-25 21:27:57 --> [ERROR] {0} is not a valid rule. SYSTEMPATH/Vali
 ERROR - 2020-11-25 21:29:49 --> [ CUSTOM ERROR ] {0} is not a valid rule. SYSTEMPATH/Validation/Exceptions/ValidationException.php:10
 ERROR - 2020-11-25 21:29:51 --> [ CUSTOM ERROR ] {0} is not a valid rule. SYSTEMPATH/Validation/Exceptions/ValidationException.php:10
 ERROR - 2020-11-25 22:13:49 --> [ CUSTOM ERROR ] There is no data to {0}. SYSTEMPATH/Database/Exceptions/DataException.php:29
+CRITICAL - 2020-11-25 23:29:52 --> Call to undefined method App\Controllers\API\Profesores::respondDelete()
+#0 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Profesores->delete()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}

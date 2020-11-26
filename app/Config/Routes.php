@@ -39,6 +39,7 @@ $routes->group('api', ['namespace' => 'App\Controllers\API'], function($routes){
 	$routes->post('profesores/create', 'Profesores::create');
 	$routes->get('profesores/edit/(:num)', 'Profesores::edit/$1');
 	$routes->put('profesores/update/(:num)', 'Profesores::update/$1');
+	$routes->delete('profesores/delete/(:num)', 'Profesores::delete/$1');
 
 });
 

@@ -84,7 +84,7 @@ public function edit($id = null)
 		}
 	}
 
-	//actualizar
+//actualizar
 	public function update($id = null)
 	{
 		try {
@@ -117,6 +117,42 @@ public function edit($id = null)
 	else: 
 		//si hay error en las reglas definidas en el modelo
 		return $this->failValidationError($this->model->validation->listErrors());
+	endif;
+
+	
+		} catch (\Exception  $e) {
+			//retornar un mensaje
+			return $this->failServerError('Ha ocurrido un error en el servidor');
+		}
+	}
+
+//ELIMINAR
+	public function delete($id = null)
+	{
+		try {
+			//validacion del id
+			if($id == null)
+			//error de validacion
+			return $this->failValidationError('No se ha pasado un ID valido');
+
+
+			//que el id sea igual que el id de la funcion y va traer el cliente que necesito
+			$profesorVerificado = $this->model->find($id);
+
+			//validar si profesor es nulo
+			if($profesorVerificado == null )
+			//error porque el id no es valido
+			return $this->failNotFound('No se ha encontrado un profesor con el id: '.$id);
+
+			 //codeigniter trae funciones para base de datos, usando el metodo insert 
+	   //el metodo insert devuelve un booleano y se puede ver si se inserto o no
+	   if($this->model->delete($id)):
+
+		//SI recibe correstamente la data
+		return $this->respondDeleted($profesorVerificado);
+	else: 
+		//retornar un mensaje
+		return $this->failServerError('No se ha podido eliminar el registro');
 	endif;
 
 	
