@@ -41,6 +41,20 @@ $routes->group('api', ['namespace' => 'App\Controllers\API'], function($routes){
 	$routes->put('profesores/update/(:num)', 'Profesores::update/$1');
 	$routes->delete('profesores/delete/(:num)', 'Profesores::delete/$1');
 
+	//rutas de estudiantes
+	$routes->get('estudiantes', 'Estudiantes::index');
+	$routes->post('estudiantes/create', 'Estudiantes::create');
+	$routes->get('estudiantes/edit/(:num)', 'Estudiantes::edit/$1');
+	$routes->put('estudiantes/update/(:num)', 'Estudiantes::update/$1');
+	$routes->delete('estudiantes/delete/(:num)', 'Estudiantes::delete/$1');
+
+	//rutas de grados
+	$routes->get('grados', 'Grados::index');
+	$routes->post('grados/create', 'Grados::create');
+	$routes->get('grados/edit/(:num)', 'Grados::edit/$1');
+	$routes->put('grados/update/(:num)', 'Grados::update/$1');
+	$routes->delete('grados/delete/(:num)', 'Grados::delete/$1');
+
 });
 
 /**

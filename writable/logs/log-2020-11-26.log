@@ -1,0 +1,14 @@
+ERROR - 2020-11-26 01:02:08 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`escuela`.`grado`, CONSTRAINT `fk_grado_profesor` FOREIGN KEY (`profesor_id`) REFERENCES `profesor` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION) in /var/www/API-RESTful/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(2456): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(110): CodeIgniter\Model->update()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->update()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}

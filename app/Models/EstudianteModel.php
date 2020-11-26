@@ -5,12 +5,12 @@ use CodeIgniter\Model;
 
 
 //va dar una herencia de la clase model por defecto
-class ProfesorModel extends Model 
+class EstudianteModel extends Model 
 {
     //standar para que fucione con la calse model
     // con variable protegida
+    protected $table = 'estudiante'; 
 
-    protected $table = 'profesor'; 
     //id de la tabla 
     protected $primaryKey = 'id';
 
@@ -18,10 +18,11 @@ class ProfesorModel extends Model
     protected $returnType = 'array';
 
     //arreglo de variables que seran permitidos para que sean manejados por codeigniter
-    protected $allowedFields = ['nombre', 'apellido', 'profesion', 'telefono', 'dui'];
+    protected $allowedFields = ['nombre', 'apellido', 'dui', 'genero', 'carnet', 'grado_id'];
 
     //metodo para gestionar las fechas (si quiero llevar el control de fechas de auditoria)
     protected $useTimestamps = true;
+
     //las columnas de fechas
     protected $createdField  = 'created_at';
     protected $updatedField  = 'updated_at';
@@ -32,9 +33,10 @@ class ProfesorModel extends Model
         //reglas cumplir embase al tipo de campo en la bd
         'nombre'     => 'required|alpha_space|min_length[3]|max_length[75]',
         'apellido'   => 'required|alpha_space|min_length[3]|max_length[75]',
-        'profesion'  => 'required|alpha_space|min_length[3]|max_length[10]',
-        'telefono'   => 'required|min_length[8]|max_length[8]',
-        'dui'        => 'required|min_length[10]|max_length[10]'
+        'dui'        => 'required|min_length[10]|max_length[10]',
+        'genero'     => 'required',
+        'carnet'     => 'required|min_length[9]|max_length[9]',
+        'grado_id'   => 'required'
     ];
         //mensajes especiales
         protected $validationMessages = [
@@ -52,25 +54,25 @@ class ProfesorModel extends Model
                 'max_length'  => 'Maximo de letras es 75'
             ],
 
-            'profesion' => [
-                'required'    => 'Por favor rellene este campo',
-                'alpha_space' => 'No se permiten numeros',
-                'min_length'  => 'Minimo de letras es 3',
-                'max_length'  => 'Maximo de letras es 10'
-            ],
-
-            'telefono' => [
-                'required'            => 'Por favor rellene este campo',
-                'alpha_numeric_space' => 'Solo se permiten numeros',
-                'min_length'          => 'Minimo de letras es 8',
-                'max_length'          => 'Maximo de letras es 8'
-            ],
-
             'dui' => [
                 'required'            => 'Por favor rellene este campo',
                 'alpha_numeric_space' => 'Solo se permiten numeros',
                 'min_length'          => 'Minimo de letras es 10',
                 'max_length'          => 'Maximo de letras es 10'
+            ],
+
+            'genero' => [
+                'required' => 'Por favor rellene este campo'
+            ],
+
+            'carnet' => [
+                'required'   => 'Por favor rellene este campo',
+                'min_length' => 'Minimo de letras es 9',
+                'max_length' => 'Maximo de letras es 9'
+            ],
+
+            'grado_id' => [
+                'required'    => 'Por favor rellene este campo'
             ]
         ];
      
