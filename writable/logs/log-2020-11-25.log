@@ -1,0 +1,16 @@
+CRITICAL - 2020-11-25 13:33:08 --> {0} is not a valid rule.
+#0 /var/www/API-RESTful/system/Validation/Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /var/www/API-RESTful/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/API-RESTful/system/Model.php(1505): CodeIgniter\Validation\Validation->run()
+#3 /var/www/API-RESTful/system/Model.php(727): CodeIgniter\Model->validate()
+#4 /var/www/API-RESTful/app/Controllers/API/Profesores.php(38): CodeIgniter\Model->insert()
+#5 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Profesores->create()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#10 {main}
+ERROR - 2020-11-25 21:27:57 --> [ERROR] {0} is not a valid rule. SYSTEMPATH/Validation/Exceptions/ValidationException.php:10
+ERROR - 2020-11-25 21:29:49 --> [ CUSTOM ERROR ] {0} is not a valid rule. SYSTEMPATH/Validation/Exceptions/ValidationException.php:10
+ERROR - 2020-11-25 21:29:51 --> [ CUSTOM ERROR ] {0} is not a valid rule. SYSTEMPATH/Validation/Exceptions/ValidationException.php:10
+ERROR - 2020-11-25 22:13:49 --> [ CUSTOM ERROR ] There is no data to {0}. SYSTEMPATH/Database/Exceptions/DataException.php:29

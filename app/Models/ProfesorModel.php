@@ -21,7 +21,7 @@ class ProfesorModel extends Model
     protected $allowedFields = ['nombre', 'apellido', 'profesion', 'telefono', 'dui'];
 
     //metodo para gestionar las fechas (si quiero llevar el control de fechas de auditoria)
-    protected $userTimestamps = true;
+    protected $useTimestamps = true;
     //las columnas de fechas
     protected $createdField  = 'created_at';
     protected $updatedField  = 'updated_at';
@@ -30,13 +30,49 @@ class ProfesorModel extends Model
     protected $validationRules = [
     
         //reglas cumplir embase al tipo de campo en la bd
-        'nombre' => 'required|alpla_sapce|min_length[3]|min_length[75]',
-        'apellido' => 'required|alpla_sapce|min_length[3]|min_length[75]',
-        'profesion' => 'required|alpla_sapce|min_length[3]|min_length[75]',
-        'telefono' => 'required|alpla_sapce|min_length[9]|min_length[9]',
-        'dui' => 'required|alpla_sapce|min_length[10]|min_length[10]'
+        'nombre'     => 'required|alpha_space|min_length[3]|max_length[75]',
+        'apellido'   => 'required|alpha_space|min_length[3]|max_length[75]',
+        'profesion'  => 'required|alpha_space|min_length[3]|max_length[10]',
+        'telefono'   => 'required|min_length[8]|max_length[8]',
+        'dui'        => 'required|min_length[10]|max_length[10]'
     ];
         //mensajes especiales
+        protected $validationMessages = [
+            'nombre' => [
+                'required'    => 'Por favor rellene este campo',
+                'alpha_space' => 'No se permiten numeros',
+                'min_length'  => 'Minimo de letras es 3',
+                'max_length'  => 'Maximo de letras es 75'
+            ],
+
+            'apellidos' => [
+                'required'    => 'Por favor rellene este campo',
+                'alpha_space' => 'No se permiten numeros',
+                'min_length'  => 'Minimo de letras es 3',
+                'max_length'  => 'Maximo de letras es 75'
+            ],
+
+            'profesion' => [
+                'required'    => 'Por favor rellene este campo',
+                'alpha_space' => 'No se permiten numeros',
+                'min_length'  => 'Minimo de letras es 3',
+                'max_length'  => 'Maximo de letras es 10'
+            ],
+
+            'telefono' => [
+                'required'            => 'Por favor rellene este campo',
+                'alpha_numeric_space' => 'Solo se permiten numeros',
+                'min_length'          => 'Minimo de letras es 8',
+                'max_length'          => 'Maximo de letras es 8'
+            ],
+
+            'dui' => [
+                'required'            => 'Por favor rellene este campo',
+                'alpha_numeric_space' => 'Solo se permiten numeros',
+                'min_length'          => 'Minimo de letras es 10',
+                'max_length'          => 'Maximo de letras es 10'
+            ]
+        ];
      
         //no se puede saltar ninguna validacion de mi modelo
         protected $skipValidation = false;
