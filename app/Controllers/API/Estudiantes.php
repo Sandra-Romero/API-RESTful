@@ -8,7 +8,7 @@ use CodeIgniter\RESTful\ResourceController;
 class Estudiantes extends ResourceController
 {
 
-    //setear el modelo
+     //setear el modelo
 	//crear un constructor
 	public function __construct() {
 		$this->model = $this->setModel(new EstudianteModel());
@@ -97,7 +97,7 @@ public function edit($id = null)
 			//que el id sea igual que el id de la funcion y va traer el cliente que necesito
 			$estudianteVerificado = $this->model->find($id);
 
-			//validar si profesor es nulo
+			//validar si estudiante es nulo
 			if($estudianteVerificado == null )
 			//error porque el id no es valido
 			return $this->failNotFound('No se ha encontrado un estudiante con el id: '.$id);

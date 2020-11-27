@@ -33,46 +33,50 @@ class EstudianteModel extends Model
         //reglas cumplir embase al tipo de campo en la bd
         'nombre'     => 'required|alpha_space|min_length[3]|max_length[75]',
         'apellido'   => 'required|alpha_space|min_length[3]|max_length[75]',
-        'dui'        => 'required|min_length[10]|max_length[10]',
-        'genero'     => 'required',
+        'dui'        => 'required|alpha_numeric_space|min_length[10]|max_length[10]',
+        'genero'     => 'required|alpha_space|min_length[1]|max_length[1]',
         'carnet'     => 'required|min_length[9]|max_length[9]',
         'grado_id'   => 'required'
     ];
         //mensajes especiales
         protected $validationMessages = [
             'nombre' => [
-                'required'    => 'Por favor rellene este campo',
+                'required'    => 'Por favor rellene el campo Nombre',
                 'alpha_space' => 'No se permiten numeros',
-                'min_length'  => 'Minimo de letras es 3',
-                'max_length'  => 'Maximo de letras es 75'
+                'min_length'  => 'Nombre Minimo 3 caracteres',
+                'max_length'  => 'Nombre Maximo 75 caracteres'
             ],
 
             'apellido' => [
-                'required'    => 'Por favor rellene este campo',
+                'required'    => 'Por favor rellene el campo Apellido',
                 'alpha_space' => 'No se permiten numeros',
-                'min_length'  => 'Minimo de letras es 3',
-                'max_length'  => 'Maximo de letras es 75'
+                'min_length'  => 'Apellido Minimo 3 caracteres',
+                'max_length'  => 'Apellido Maximo 75 caracteres'
             ],
 
             'dui' => [
-                'required'            => 'Por favor rellene este campo',
-                'alpha_numeric_space' => 'Solo se permiten numeros',
-                'min_length'          => 'Minimo de letras es 10',
-                'max_length'          => 'Maximo de letras es 10'
+                'required'            => 'Por favor rellene el campo Dui',
+                'alpha_numeric_space' => 'DUI Solo se permiten numeros',
+                'min_length'          => 'DUI Minimo 10 caracteres',
+                'max_length'          => 'DUI Maximo 10 caracteres'
             ],
 
             'genero' => [
-                'required' => 'Por favor rellene este campo'
+                'required'    => 'Por favor rellene el campo Genero',
+                'alpha_space' => 'Genero No se permiten numeros',
+                'min_length'  => 'Genero Minimo 1 caracter',
+                'max_length'  => 'Genero Maximo 1 caracter'
             ],
 
             'carnet' => [
-                'required'   => 'Por favor rellene este campo',
-                'min_length' => 'Minimo de letras es 9',
-                'max_length' => 'Maximo de letras es 9'
+                'required'   => 'Por favor rellene el campo Carnet',
+                'min_length' => 'Carnet Minimo 11 caracteres',
+                'max_length' => 'Carnet Maximo 11 caracteres',
+                'regex_match' => 'Carnet no tiene el formato correcto'
             ],
 
             'grado_id' => [
-                'required'    => 'Por favor rellene este campo'
+                'required'    => 'Por favor rellene este campo grado_id'
             ]
         ];
      

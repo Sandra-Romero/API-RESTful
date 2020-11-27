@@ -33,44 +33,44 @@ class ProfesorModel extends Model
         'nombre'     => 'required|alpha_space|min_length[3]|max_length[75]',
         'apellido'   => 'required|alpha_space|min_length[3]|max_length[75]',
         'profesion'  => 'required|alpha_space|min_length[3]|max_length[10]',
-        'telefono'   => 'required|min_length[8]|max_length[8]',
-        'dui'        => 'required|min_length[10]|max_length[10]'
+        'telefono'   => 'required|alpha_numeric_space|min_length[9]|max_length[9]',
+        'dui'        => 'required|alpha_numeric_space|min_length[10]|max_length[10]'
     ];
         //mensajes especiales
         protected $validationMessages = [
             'nombre' => [
-                'required'    => 'Por favor rellene este campo',
-                'alpha_space' => 'No se permiten numeros',
-                'min_length'  => 'Minimo de letras es 3',
-                'max_length'  => 'Maximo de letras es 75'
+                'required'    => 'Por favor rellene el campo Nombre',
+                'alpha_space' => 'Nombre No se permiten numeros',
+                'min_length'  => 'Nombre Minimo 3 caracteres',
+                'max_length'  => 'Nombre Maximo 75 caracteres'
             ],
 
             'apellido' => [
-                'required'    => 'Por favor rellene este campo',
-                'alpha_space' => 'No se permiten numeros',
-                'min_length'  => 'Minimo de letras es 3',
-                'max_length'  => 'Maximo de letras es 75'
+                'required'    => 'Por favor rellene el campo apellido',
+                'alpha_space' => 'Apellido No se permiten numeros',
+                'min_length'  => 'Apellido Minimo 3 caracteres',
+                'max_length'  => 'Apellido Maximo 75 caracteres'
             ],
 
             'profesion' => [
-                'required'    => 'Por favor rellene este campo',
-                'alpha_space' => 'No se permiten numeros',
-                'min_length'  => 'Minimo de letras es 3',
-                'max_length'  => 'Maximo de letras es 10'
+                'required'    => 'Por favor rellene el campo Profesion',
+                'alpha_space' => 'Profesion No se permiten numeros',
+                'min_length'  => 'Profesion Minimo 3 caracteres',
+                'max_length'  => 'Profesion Maximo 10 caracteres'
             ],
 
             'telefono' => [
-                'required'            => 'Por favor rellene este campo',
-                'alpha_numeric_space' => 'Solo se permiten numeros',
-                'min_length'          => 'Minimo de letras es 8',
-                'max_length'          => 'Maximo de letras es 8'
+                'required'            => 'Por favor rellene el campo Telefono',
+                'alpha_numeric_space' => 'Telefono Solo se permiten numeros',
+                'min_length'          => 'Telefono Minimo 9 caracteres',
+                'max_length'          => 'Telefono Maximo 9 caracteres'
             ],
 
             'dui' => [
-                'required'            => 'Por favor rellene este campo',
-                'alpha_numeric_space' => 'Solo se permiten numeros',
-                'min_length'          => 'Minimo de letras es 10',
-                'max_length'          => 'Maximo de letras es 10'
+                'required'            => 'Por favor rellene el campo Dui',
+                'alpha_numeric_space' => 'DUI Solo se permiten numeros',
+                'min_length'          => 'DUI Minimo 10 caracteres',
+                'max_length'          => 'DUI Maximo 10 caracteres'
             ]
         ];
      

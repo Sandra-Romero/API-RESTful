@@ -12,3 +12,157 @@ Stack trace:
 #9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
 #10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
 #11 {main}
+ERROR - 2020-11-26 12:11:46 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`escuela`.`grado`, CONSTRAINT `fk_grado_profesor` FOREIGN KEY (`profesor_id`) REFERENCES `profesor` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION) in /var/www/API-RESTful/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(38): CodeIgniter\Model->insert()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->create()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+ERROR - 2020-11-26 12:11:46 --> [ CUSTOM ERROR ] Cannot add or update a child row: a foreign key constraint fails (`escuela`.`grado`, CONSTRAINT `fk_grado_profesor` FOREIGN KEY (`profesor_id`) REFERENCES `profesor` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION) SYSTEMPATH/Database/MySQLi/Connection.php:331
+ERROR - 2020-11-26 12:12:52 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`escuela`.`grado`, CONSTRAINT `fk_grado_profesor` FOREIGN KEY (`profesor_id`) REFERENCES `profesor` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION) in /var/www/API-RESTful/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(38): CodeIgniter\Model->insert()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->create()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+ERROR - 2020-11-26 12:12:52 --> [ CUSTOM ERROR ] Cannot add or update a child row: a foreign key constraint fails (`escuela`.`grado`, CONSTRAINT `fk_grado_profesor` FOREIGN KEY (`profesor_id`) REFERENCES `profesor` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION) SYSTEMPATH/Database/MySQLi/Connection.php:331
+ERROR - 2020-11-26 12:13:25 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`escuela`.`grado`, CONSTRAINT `fk_grado_profesor` FOREIGN KEY (`profesor_id`) REFERENCES `profesor` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION) in /var/www/API-RESTful/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(38): CodeIgniter\Model->insert()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->create()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+ERROR - 2020-11-26 12:13:25 --> [ CUSTOM ERROR ] Cannot add or update a child row: a foreign key constraint fails (`escuela`.`grado`, CONSTRAINT `fk_grado_profesor` FOREIGN KEY (`profesor_id`) REFERENCES `profesor` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION) SYSTEMPATH/Database/MySQLi/Connection.php:331
+ERROR - 2020-11-26 12:13:37 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`escuela`.`grado`, CONSTRAINT `fk_grado_profesor` FOREIGN KEY (`profesor_id`) REFERENCES `profesor` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION) in /var/www/API-RESTful/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(38): CodeIgniter\Model->insert()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->create()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+ERROR - 2020-11-26 12:13:37 --> [ CUSTOM ERROR ] Cannot add or update a child row: a foreign key constraint fails (`escuela`.`grado`, CONSTRAINT `fk_grado_profesor` FOREIGN KEY (`profesor_id`) REFERENCES `profesor` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION) SYSTEMPATH/Database/MySQLi/Connection.php:331
+ERROR - 2020-11-26 12:17:27 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`escuela`.`grado`, CONSTRAINT `fk_grado_profesor` FOREIGN KEY (`profesor_id`) REFERENCES `profesor` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION) in /var/www/API-RESTful/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(2456): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(110): CodeIgniter\Model->update()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->update()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+ERROR - 2020-11-26 12:17:32 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`escuela`.`grado`, CONSTRAINT `fk_grado_profesor` FOREIGN KEY (`profesor_id`) REFERENCES `profesor` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION) in /var/www/API-RESTful/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(2456): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(110): CodeIgniter\Model->update()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->update()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+ERROR - 2020-11-26 12:17:37 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`escuela`.`grado`, CONSTRAINT `fk_grado_profesor` FOREIGN KEY (`profesor_id`) REFERENCES `profesor` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION) in /var/www/API-RESTful/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(2456): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(110): CodeIgniter\Model->update()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->update()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+ERROR - 2020-11-26 14:36:15 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`escuela`.`estudiante`, CONSTRAINT `fk_estudiante_grado1` FOREIGN KEY (`grado_id`) REFERENCES `grado` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION) in /var/www/API-RESTful/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/API-RESTful/app/Controllers/API/Estudiantes.php(38): CodeIgniter\Model->insert()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Estudiantes->create()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+ERROR - 2020-11-26 14:36:15 --> [ CUSTOM ERROR ] Cannot add or update a child row: a foreign key constraint fails (`escuela`.`estudiante`, CONSTRAINT `fk_estudiante_grado1` FOREIGN KEY (`grado_id`) REFERENCES `grado` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION) SYSTEMPATH/Database/MySQLi/Connection.php:331
+ERROR - 2020-11-26 15:13:48 --> [ CUSTOM ERROR ] preg_match(): Compilation failed: unmatched closing parenthesis at offset 4 SYSTEMPATH/Validation/FormatRules.php:231
+ERROR - 2020-11-26 15:14:13 --> [ CUSTOM ERROR ] {0} no es una regla de validación válida. SYSTEMPATH/Validation/Exceptions/ValidationException.php:10
+ERROR - 2020-11-26 15:14:15 --> [ CUSTOM ERROR ] {0} no es una regla de validación válida. SYSTEMPATH/Validation/Exceptions/ValidationException.php:10
+ERROR - 2020-11-26 15:14:40 --> [ CUSTOM ERROR ] preg_match(): Unknown modifier '/' SYSTEMPATH/Validation/FormatRules.php:231
+ERROR - 2020-11-26 15:25:02 --> [ CUSTOM ERROR ] preg_match(): Unknown modifier '^' SYSTEMPATH/Validation/FormatRules.php:231
+ERROR - 2020-11-26 15:25:26 --> [ CUSTOM ERROR ] {0} no es una regla de validación válida. SYSTEMPATH/Validation/Exceptions/ValidationException.php:10
+ERROR - 2020-11-26 15:26:00 --> [ CUSTOM ERROR ] preg_match(): Unknown modifier '^' SYSTEMPATH/Validation/FormatRules.php:231
+ERROR - 2020-11-26 15:41:02 --> [ CUSTOM ERROR ] preg_match(): Unknown modifier '/' SYSTEMPATH/Validation/FormatRules.php:231
+ERROR - 2020-11-26 15:41:40 --> [ CUSTOM ERROR ] {0} no es una regla de validación válida. SYSTEMPATH/Validation/Exceptions/ValidationException.php:10
+ERROR - 2020-11-26 15:42:09 --> [ CUSTOM ERROR ] {0} no es una regla de validación válida. SYSTEMPATH/Validation/Exceptions/ValidationException.php:10
+ERROR - 2020-11-26 15:42:43 --> [ CUSTOM ERROR ] {0} no es una regla de validación válida. SYSTEMPATH/Validation/Exceptions/ValidationException.php:10
+CRITICAL - 2020-11-26 15:42:58 --> Argument 2 passed to CodeIgniter\Validation\FormatRules::regex_match() must be of the type string, null given, called in /var/www/API-RESTful/system/Validation/Validation.php on line 325
+#0 /var/www/API-RESTful/system/Validation/Validation.php(325): CodeIgniter\Validation\FormatRules->regex_match()
+#1 /var/www/API-RESTful/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/API-RESTful/system/Model.php(1505): CodeIgniter\Validation\Validation->run()
+#3 /var/www/API-RESTful/system/Model.php(727): CodeIgniter\Model->validate()
+#4 /var/www/API-RESTful/app/Controllers/API/Estudiantes.php(38): CodeIgniter\Model->insert()
+#5 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Estudiantes->create()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#10 {main}
+CRITICAL - 2020-11-26 15:43:17 --> Argument 2 passed to CodeIgniter\Validation\FormatRules::regex_match() must be of the type string, null given, called in /var/www/API-RESTful/system/Validation/Validation.php on line 325
+#0 /var/www/API-RESTful/system/Validation/Validation.php(325): CodeIgniter\Validation\FormatRules->regex_match()
+#1 /var/www/API-RESTful/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/API-RESTful/system/Model.php(1505): CodeIgniter\Validation\Validation->run()
+#3 /var/www/API-RESTful/system/Model.php(727): CodeIgniter\Model->validate()
+#4 /var/www/API-RESTful/app/Controllers/API/Estudiantes.php(38): CodeIgniter\Model->insert()
+#5 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Estudiantes->create()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#10 {main}
+ERROR - 2020-11-26 17:56:53 --> [ CUSTOM ERROR ] preg_match(): Compilation failed: unmatched closing parenthesis at offset 7 SYSTEMPATH/Validation/FormatRules.php:231
+ERROR - 2020-11-26 17:57:36 --> [ CUSTOM ERROR ] {0} no es una regla de validación válida. SYSTEMPATH/Validation/Exceptions/ValidationException.php:10

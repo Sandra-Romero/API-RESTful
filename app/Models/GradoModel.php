@@ -31,28 +31,28 @@ class GradoModel extends Model
     protected $validationRules = [
     
         //reglas cumplir embase al tipo de campo en la bd
-        'grado'       => 'required|alpha_space|min_length[3]|max_length[60]',
-        'seccion'     => 'required|alpha_space|min_length[1]|max_length[2]',
+        'grado'       => 'required|alpha_numeric_space|min_length[3]|max_length[60]',
+        'seccion'     => 'required|alpha_numeric_space|min_length[1]|max_length[2]',
         'profesor_id' => 'required'
     ];
         //mensajes especiales
         protected $validationMessages = [
             'grado' => [
-                'required'    => 'Por favor rellene este campo',
-                'alpha_space' => 'No se permiten numeros',
-                'min_length'  => 'Minimo de letras es 3',
-                'max_length'  => 'Maximo de letras es 60'
+                'required'            => 'Por favor rellene el campo Grado',
+                'alpha_numeric_space' => 'Se permiten numeros',
+                'min_length'          => 'Minimo de letras es 3',
+                'max_length'          => 'Maximo de letras es 60'
             ],
 
             'seccion' => [
-                'required'    => 'Por favor rellene este campo',
+                'required'    => 'Por favor rellene el campo Seccion',
                 'alpha_space' => 'No se permiten numeros',
                 'min_length'  => 'Minimo de letras es 1',
                 'max_length'  => 'Maximo de letras es 2'
             ],
 
-            'dui' => [
-                'required' => 'Por favor rellene este campo'
+            'profesor_id' => [
+                'required' => 'Por favor rellene el campo profesor_id'
             ]
         ];
      
