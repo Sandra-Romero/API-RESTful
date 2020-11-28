@@ -33,7 +33,7 @@ class GradoModel extends Model
         //reglas cumplir embase al tipo de campo en la bd
         'grado'       => 'required|alpha_numeric_space|min_length[3]|max_length[60]',
         'seccion'     => 'required|alpha_numeric_space|min_length[1]|max_length[2]',
-        'profesor_id' => 'required'
+        'profesor_id' => 'required|is_valid_profesor'
     ];
         //mensajes especiales
         protected $validationMessages = [
@@ -52,7 +52,8 @@ class GradoModel extends Model
             ],
 
             'profesor_id' => [
-                'required' => 'Por favor rellene el campo profesor_id'
+                'required'          => 'Por favor rellene el campo profesor_id',
+                'is_valid_profesor' => 'Debe de ingresar un profesor valido'
             ]
         ];
      

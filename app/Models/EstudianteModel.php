@@ -35,9 +35,10 @@ class EstudianteModel extends Model
         'apellido'   => 'required|alpha_space|min_length[3]|max_length[75]',
         'dui'        => 'required|alpha_numeric_space|min_length[10]|max_length[10]',
         'genero'     => 'required|alpha_space|min_length[1]|max_length[1]',
-        'carnet'     => 'required|min_length[9]|max_length[9]',
-        'grado_id'   => 'required'
+        'carnet'     => 'required|min_length[9]|max_length[9]|regex_match[^u([0-9]){1,8}$]',
+        'grado_id'   => 'required|is_valid_grado'
     ];
+    
         //mensajes especiales
         protected $validationMessages = [
             'nombre' => [
@@ -49,7 +50,7 @@ class EstudianteModel extends Model
 
             'apellido' => [
                 'required'    => 'Por favor rellene el campo Apellido',
-                'alpha_space' => 'No se permiten numeros',
+                'alpha_space' => 'Apellido No se permiten numeros',
                 'min_length'  => 'Apellido Minimo 3 caracteres',
                 'max_length'  => 'Apellido Maximo 75 caracteres'
             ],
@@ -70,13 +71,14 @@ class EstudianteModel extends Model
 
             'carnet' => [
                 'required'   => 'Por favor rellene el campo Carnet',
-                'min_length' => 'Carnet Minimo 11 caracteres',
-                'max_length' => 'Carnet Maximo 11 caracteres',
+                'min_length' => 'Carnet Minimo 9 caracteres',
+                'max_length' => 'Carnet Maximo 9 caracteres',
                 'regex_match' => 'Carnet no tiene el formato correcto'
             ],
 
             'grado_id' => [
-                'required'    => 'Por favor rellene este campo grado_id'
+                'required'       => 'Por favor rellene este campo grado_id',
+                'is_valid_grado' => 'Debe de ingresar un grado valido'
             ]
         ];
      

@@ -166,3 +166,7 @@ CRITICAL - 2020-11-26 15:43:17 --> Argument 2 passed to CodeIgniter\Validation\F
 #10 {main}
 ERROR - 2020-11-26 17:56:53 --> [ CUSTOM ERROR ] preg_match(): Compilation failed: unmatched closing parenthesis at offset 7 SYSTEMPATH/Validation/FormatRules.php:231
 ERROR - 2020-11-26 17:57:36 --> [ CUSTOM ERROR ] {0} no es una regla de validación válida. SYSTEMPATH/Validation/Exceptions/ValidationException.php:10
+ERROR - 2020-11-26 18:32:46 --> [ CUSTOM ERROR ] preg_match(): Compilation failed: missing closing parenthesis at offset 22 SYSTEMPATH/Validation/FormatRules.php:231
+ERROR - 2020-11-26 18:33:07 --> [ CUSTOM ERROR ] preg_match(): Compilation failed: missing closing parenthesis at offset 15 SYSTEMPATH/Validation/FormatRules.php:231
+ERROR - 2020-11-26 18:33:23 --> [ CUSTOM ERROR ] preg_match(): Compilation failed: missing closing parenthesis at offset 15 SYSTEMPATH/Validation/FormatRules.php:231
+ERROR - 2020-11-26 18:34:56 --> [ CUSTOM ERROR ] {0} no es una regla de validación válida. SYSTEMPATH/Validation/Exceptions/ValidationException.php:10

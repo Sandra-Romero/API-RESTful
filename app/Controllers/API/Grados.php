@@ -22,6 +22,13 @@ class Grados extends ResourceController
 
 		//metodo respond
 		return $this->respond($Grados);
+
+		/*$this->model->select('*');
+		$this->model->from('profesor');
+		$this->model->join('grado', 'grado.profesor_id = profesor.id');
+		$consulta = $this->model->get();
+		$resultado = $consulta->result();
+		*/
 	}
 
 //INSERTAR
@@ -69,7 +76,7 @@ public function edit($id = null)
 			//que el id sea igual que el id de la funcion y va traer el cliente que necesito
 			$grado = $this->model->find($id);
 
-			//validar si estudiante es nulo
+			//validar si grado es nulo
 			if($grado == null )
 			//error porque el id no es valido
 			return $this->failNotFound('No se ha encontrado un grado con el id: '.$id);
@@ -97,7 +104,7 @@ public function edit($id = null)
 			//que el id sea igual que el id de la funcion y va traer el cliente que necesito
 			$gradoVerificado = $this->model->find($id);
 
-			//validar si profesor es nulo
+			//validar si grado es nulo
 			if($gradoVerificado == null )
 			//error porque el id no es valido
 			return $this->failNotFound('No se ha encontrado un grado con el id: '.$id);

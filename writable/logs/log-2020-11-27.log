@@ -1,0 +1,428 @@
+CRITICAL - 2020-11-27 11:56:02 --> Undefined property: App\Controllers\API\Grados::$db
+#0 /var/www/API-RESTful/app/Controllers/API/Grados.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->index()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#6 {main}
+ERROR - 2020-11-27 11:56:27 --> mysqli_sql_exception: Not unique table/alias: 'grado' in /var/www/API-RESTful/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(25): CodeIgniter\Model->__call()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->index()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+CRITICAL - 2020-11-27 11:56:27 --> Not unique table/alias: 'grado'
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(25): CodeIgniter\Model->__call()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->index()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+ERROR - 2020-11-27 11:57:40 --> mysqli_sql_exception: Not unique table/alias: 'grado' in /var/www/API-RESTful/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(25): CodeIgniter\Model->__call()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->index()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+CRITICAL - 2020-11-27 11:57:40 --> Not unique table/alias: 'grado'
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(25): CodeIgniter\Model->__call()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->index()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+ERROR - 2020-11-27 11:59:20 --> mysqli_sql_exception: Not unique table/alias: 'grado' in /var/www/API-RESTful/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(26): CodeIgniter\Model->findAll()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->index()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+CRITICAL - 2020-11-27 11:59:20 --> Not unique table/alias: 'grado'
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(26): CodeIgniter\Model->findAll()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->index()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+CRITICAL - 2020-11-27 12:04:32 --> Undefined property: App\Controllers\API\Grados::$db
+#0 /var/www/API-RESTful/app/Controllers/API/Grados.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->index()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#6 {main}
+CRITICAL - 2020-11-27 12:05:36 --> Cannot call constructor
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Grados->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+ERROR - 2020-11-27 12:31:17 --> mysqli_sql_exception: Not unique table/alias: 'grado' in /var/www/API-RESTful/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(24): CodeIgniter\Model->__call()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->index()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+CRITICAL - 2020-11-27 12:31:17 --> Not unique table/alias: 'grado'
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(24): CodeIgniter\Model->__call()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->index()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+ERROR - 2020-11-27 12:32:54 --> mysqli_sql_exception: Not unique table/alias: 'grado' in /var/www/API-RESTful/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(25): CodeIgniter\Model->__call()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->index()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+CRITICAL - 2020-11-27 12:32:54 --> Not unique table/alias: 'grado'
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(25): CodeIgniter\Model->__call()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->index()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+ERROR - 2020-11-27 12:33:42 --> mysqli_sql_exception: Not unique table/alias: 'grado' in /var/www/API-RESTful/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(24): CodeIgniter\Model->findAll()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->index()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+CRITICAL - 2020-11-27 12:33:42 --> Not unique table/alias: 'grado'
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(24): CodeIgniter\Model->findAll()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->index()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+ERROR - 2020-11-27 12:34:41 --> mysqli_sql_exception: Not unique table/alias: 'grado' in /var/www/API-RESTful/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(24): CodeIgniter\Model->findAll()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->index()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+CRITICAL - 2020-11-27 12:34:41 --> Not unique table/alias: 'grado'
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(24): CodeIgniter\Model->findAll()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->index()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+ERROR - 2020-11-27 12:35:51 --> mysqli_sql_exception: Not unique table/alias: 'grado' in /var/www/API-RESTful/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(24): CodeIgniter\Model->__call()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->index()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+CRITICAL - 2020-11-27 12:35:51 --> Not unique table/alias: 'grado'
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(24): CodeIgniter\Model->__call()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->index()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+ERROR - 2020-11-27 12:36:16 --> mysqli_sql_exception: Not unique table/alias: 'grado' in /var/www/API-RESTful/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(24): CodeIgniter\Model->__call()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->index()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+CRITICAL - 2020-11-27 12:36:16 --> Not unique table/alias: 'grado'
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(24): CodeIgniter\Model->__call()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->index()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+CRITICAL - 2020-11-27 12:55:17 --> Cannot call constructor
+#0 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\API\Grados->__construct()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-27 13:04:40 --> Undefined variable: Grados
+#0 /var/www/API-RESTful/app/Controllers/API/Grados.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->index()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#6 {main}
+CRITICAL - 2020-11-27 13:05:05 --> Undefined variable: Grados
+#0 /var/www/API-RESTful/app/Controllers/API/Grados.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->index()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#6 {main}
+ERROR - 2020-11-27 13:05:14 --> mysqli_sql_exception: Not unique table/alias: 'grado' in /var/www/API-RESTful/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(28): CodeIgniter\Model->findAll()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->index()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+CRITICAL - 2020-11-27 13:05:14 --> Not unique table/alias: 'grado'
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(28): CodeIgniter\Model->findAll()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->index()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+ERROR - 2020-11-27 13:05:37 --> mysqli_sql_exception: Not unique table/alias: 'grado' in /var/www/API-RESTful/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(28): CodeIgniter\Model->findAll()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->index()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+CRITICAL - 2020-11-27 13:05:37 --> Not unique table/alias: 'grado'
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(28): CodeIgniter\Model->findAll()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->index()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+ERROR - 2020-11-27 13:06:19 --> mysqli_sql_exception: Not unique table/alias: 'grado' in /var/www/API-RESTful/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(28): CodeIgniter\Model->__call()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->index()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+CRITICAL - 2020-11-27 13:06:19 --> Not unique table/alias: 'grado'
+#0 /var/www/API-RESTful/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/API-RESTful/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/API-RESTful/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/API-RESTful/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/API-RESTful/system/Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/API-RESTful/app/Controllers/API/Grados.php(28): CodeIgniter\Model->__call()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Grados->index()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#11 {main}
+ERROR - 2020-11-27 16:19:18 --> [ CUSTOM ERROR ] No hay datos para {0} SYSTEMPATH/Database/Exceptions/DataException.php:29
+ERROR - 2020-11-27 16:19:41 --> [ CUSTOM ERROR ] No hay datos para {0} SYSTEMPATH/Database/Exceptions/DataException.php:29
+ERROR - 2020-11-27 16:19:43 --> [ CUSTOM ERROR ] No hay datos para {0} SYSTEMPATH/Database/Exceptions/DataException.php:29
+ERROR - 2020-11-27 16:20:15 --> [ CUSTOM ERROR ] No hay datos para {0} SYSTEMPATH/Database/Exceptions/DataException.php:29
+ERROR - 2020-11-27 16:20:31 --> [ CUSTOM ERROR ] No hay datos para {0} SYSTEMPATH/Database/Exceptions/DataException.php:29
+ERROR - 2020-11-27 16:21:12 --> [ CUSTOM ERROR ] No hay datos para {0} SYSTEMPATH/Database/Exceptions/DataException.php:29
+CRITICAL - 2020-11-27 17:50:35 --> Class 'App\Models\CustomRules\GradoModel' not found
+#0 /var/www/API-RESTful/system/Validation/Validation.php(325): App\Models\CustomRules\MyCustomRules->is_valid_grado()
+#1 /var/www/API-RESTful/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/API-RESTful/system/Model.php(1505): CodeIgniter\Validation\Validation->run()
+#3 /var/www/API-RESTful/system/Model.php(727): CodeIgniter\Model->validate()
+#4 /var/www/API-RESTful/app/Controllers/API/Estudiantes.php(38): CodeIgniter\Model->insert()
+#5 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Estudiantes->create()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#10 {main}
+CRITICAL - 2020-11-27 17:50:50 --> Class 'App\Models\CustomRules\GradoModel' not found
+#0 /var/www/API-RESTful/system/Validation/Validation.php(325): App\Models\CustomRules\MyCustomRules->is_valid_grado()
+#1 /var/www/API-RESTful/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/API-RESTful/system/Model.php(1505): CodeIgniter\Validation\Validation->run()
+#3 /var/www/API-RESTful/system/Model.php(727): CodeIgniter\Model->validate()
+#4 /var/www/API-RESTful/app/Controllers/API/Estudiantes.php(38): CodeIgniter\Model->insert()
+#5 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Estudiantes->create()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#10 {main}
+CRITICAL - 2020-11-27 17:50:51 --> Class 'App\Models\CustomRules\GradoModel' not found
+#0 /var/www/API-RESTful/system/Validation/Validation.php(325): App\Models\CustomRules\MyCustomRules->is_valid_grado()
+#1 /var/www/API-RESTful/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/API-RESTful/system/Model.php(1505): CodeIgniter\Validation\Validation->run()
+#3 /var/www/API-RESTful/system/Model.php(727): CodeIgniter\Model->validate()
+#4 /var/www/API-RESTful/app/Controllers/API/Estudiantes.php(38): CodeIgniter\Model->insert()
+#5 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Estudiantes->create()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#10 {main}
+ERROR - 2020-11-27 17:51:41 --> [ CUSTOM ERROR ] {0} no es una regla de validación válida. SYSTEMPATH/Validation/Exceptions/ValidationException.php:10
+ERROR - 2020-11-27 17:51:46 --> [ CUSTOM ERROR ] {0} no es una regla de validación válida. SYSTEMPATH/Validation/Exceptions/ValidationException.php:10
+ERROR - 2020-11-27 17:51:48 --> [ CUSTOM ERROR ] {0} no es una regla de validación válida. SYSTEMPATH/Validation/Exceptions/ValidationException.php:10
+ERROR - 2020-11-27 17:53:57 --> [ CUSTOM ERROR ] {0} no es una regla de validación válida. SYSTEMPATH/Validation/Exceptions/ValidationException.php:10
+ERROR - 2020-11-27 17:54:24 --> [ CUSTOM ERROR ] {0} no es una regla de validación válida. SYSTEMPATH/Validation/Exceptions/ValidationException.php:10
+ERROR - 2020-11-27 17:59:58 --> [ CUSTOM ERROR ] {0} no es una regla de validación válida. SYSTEMPATH/Validation/Exceptions/ValidationException.php:10
+ERROR - 2020-11-27 18:00:04 --> [ CUSTOM ERROR ] {0} no es una regla de validación válida. SYSTEMPATH/Validation/Exceptions/ValidationException.php:10
+ERROR - 2020-11-27 18:00:16 --> [ CUSTOM ERROR ] {0} no es una regla de validación válida. SYSTEMPATH/Validation/Exceptions/ValidationException.php:10
+ERROR - 2020-11-27 18:00:23 --> [ CUSTOM ERROR ] {0} no es una regla de validación válida. SYSTEMPATH/Validation/Exceptions/ValidationException.php:10
+ERROR - 2020-11-27 18:00:25 --> [ CUSTOM ERROR ] {0} no es una regla de validación válida. SYSTEMPATH/Validation/Exceptions/ValidationException.php:10
+ERROR - 2020-11-27 18:02:00 --> [ CUSTOM ERROR ] No hay datos para {0} SYSTEMPATH/Database/Exceptions/DataException.php:29
+ERROR - 2020-11-27 18:09:27 --> [ CUSTOM ERROR ] No hay datos para {0} SYSTEMPATH/Database/Exceptions/DataException.php:29
+ERROR - 2020-11-27 18:36:05 --> [ CUSTOM ERROR ] No hay datos para {0} SYSTEMPATH/Database/Exceptions/DataException.php:29
+ERROR - 2020-11-27 18:36:19 --> [ CUSTOM ERROR ] No hay datos para {0} SYSTEMPATH/Database/Exceptions/DataException.php:29
+ERROR - 2020-11-27 18:43:22 --> [ CUSTOM ERROR ] No hay datos para {0} SYSTEMPATH/Database/Exceptions/DataException.php:29
+ERROR - 2020-11-27 18:43:24 --> [ CUSTOM ERROR ] No hay datos para {0} SYSTEMPATH/Database/Exceptions/DataException.php:29
