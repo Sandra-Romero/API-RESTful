@@ -74,6 +74,7 @@ public function edit($id = null)
 			//error porque el id no es valido
 			return $this->failNotFound('No se ha encontrado un estudiante con el id: '.$id);
 
+
 			//si encontro el id retornar con respond
 			return $this->respond($estudiante);
 

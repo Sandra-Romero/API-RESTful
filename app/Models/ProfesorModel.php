@@ -34,7 +34,7 @@ class ProfesorModel extends Model
         'apellido'   => 'required|alpha_space|min_length[3]|max_length[75]',
         'profesion'  => 'required|alpha_space|min_length[3]|max_length[10]',
         'telefono'   => 'required|alpha_numeric_space|min_length[9]|max_length[9]',
-        'dui'        => 'required|alpha_numeric_space|min_length[10]|max_length[10]'
+        'dui'        => 'required|min_length[10]|max_length[10]|regex_match[^\\d{8}-\\d$]'
     ];
         //mensajes especiales
         protected $validationMessages = [
@@ -68,9 +68,9 @@ class ProfesorModel extends Model
 
             'dui' => [
                 'required'            => 'Por favor rellene el campo Dui',
-                'alpha_numeric_space' => 'DUI Solo se permiten numeros',
                 'min_length'          => 'DUI Minimo 10 caracteres',
-                'max_length'          => 'DUI Maximo 10 caracteres'
+                'max_length'          => 'DUI Maximo 10 caracteres',
+                'regex_match'         => 'Formato icorrecto '
             ]
         ];
      

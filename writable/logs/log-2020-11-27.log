@@ -426,3 +426,75 @@ ERROR - 2020-11-27 18:36:05 --> [ CUSTOM ERROR ] No hay datos para {0} SYSTEMPAT
 ERROR - 2020-11-27 18:36:19 --> [ CUSTOM ERROR ] No hay datos para {0} SYSTEMPATH/Database/Exceptions/DataException.php:29
 ERROR - 2020-11-27 18:43:22 --> [ CUSTOM ERROR ] No hay datos para {0} SYSTEMPATH/Database/Exceptions/DataException.php:29
 ERROR - 2020-11-27 18:43:24 --> [ CUSTOM ERROR ] No hay datos para {0} SYSTEMPATH/Database/Exceptions/DataException.php:29
+CRITICAL - 2020-11-27 22:37:39 --> Class 'App\Controllers\API\GradoModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Profesores->edit()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-27 22:39:19 --> Class 'App\Controllers\API\GradoModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Profesores->edit()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-27 22:41:22 --> Class 'App\Controllers\API\GradoModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Profesores->edit()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-27 22:41:32 --> Class 'App\Controllers\API\GradoModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Profesores->edit()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-27 22:41:47 --> Class 'App\Controllers\API\GradoModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Profesores->edit()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-27 22:42:23 --> Class 'App\Controllers\API\GradoModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Profesores->edit()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-27 22:42:39 --> Class 'App\Controllers\API\GradoModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Profesores->edit()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-27 22:43:54 --> Class 'App\Controllers\API\GradoModel' not found
+#0 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Profesores->edit()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-11-27 22:54:32 --> Undefined variable: profesor
+#0 /var/www/API-RESTful/app/Controllers/API/Profesores.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Profesores->index()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#6 {main}
+CRITICAL - 2020-11-27 22:55:08 --> Undefined variable: Profesor
+#0 /var/www/API-RESTful/app/Controllers/API/Profesores.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Profesores->index()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#6 {main}

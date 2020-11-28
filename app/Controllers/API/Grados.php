@@ -2,6 +2,8 @@
 
 //Clase GradoModel 
 use App\Models\GradoModel;
+//Clase EstudianteModel 
+use App\Models\EstudianteModel;
 use CodeIgniter\RESTful\ResourceController;
 
 
@@ -81,6 +83,11 @@ public function edit($id = null)
 			//error porque el id no es valido
 			return $this->failNotFound('No se ha encontrado un grado con el id: '.$id);
 
+			
+			$estudianteModel = new EstudianteModel();
+			$grado["estudiante"] = $estudianteModel->where('grado_id', $grado['id'])->findAll();
+
+		
 			//si encontro el id retornar con respond
 			return $this->respond($grado);
 

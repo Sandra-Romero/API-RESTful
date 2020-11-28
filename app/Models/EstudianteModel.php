@@ -33,7 +33,7 @@ class EstudianteModel extends Model
         //reglas cumplir embase al tipo de campo en la bd
         'nombre'     => 'required|alpha_space|min_length[3]|max_length[75]',
         'apellido'   => 'required|alpha_space|min_length[3]|max_length[75]',
-        'dui'        => 'required|alpha_numeric_space|min_length[10]|max_length[10]',
+        'dui'        => 'required|min_length[10]|max_length[10]|regex_match[^\\d{8}-\\d$]',
         'genero'     => 'required|alpha_space|min_length[1]|max_length[1]',
         'carnet'     => 'required|min_length[9]|max_length[9]|regex_match[^u([0-9]){1,8}$]',
         'grado_id'   => 'required|is_valid_grado'
@@ -57,9 +57,9 @@ class EstudianteModel extends Model
 
             'dui' => [
                 'required'            => 'Por favor rellene el campo Dui',
-                'alpha_numeric_space' => 'DUI Solo se permiten numeros',
                 'min_length'          => 'DUI Minimo 10 caracteres',
-                'max_length'          => 'DUI Maximo 10 caracteres'
+                'max_length'          => 'DUI Maximo 10 caracteres',
+                'regex_match'         => 'Formato icorrecto '
             ],
 
             'genero' => [
