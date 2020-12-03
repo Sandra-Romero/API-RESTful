@@ -96,3 +96,24 @@ CRITICAL - 2020-12-02 20:22:40 --> Class 'App\Models\CustomRules\RolModel' not f
 #8 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
 #9 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
 #10 {main}
+CRITICAL - 2020-12-02 22:24:35 --> Call to undefined method App\Controllers\Auth::Post()
+#0 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\Auth->login()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-12-02 22:25:18 --> Call to undefined method App\Controllers\Auth::pst()
+#0 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\Auth->login()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-12-02 22:25:42 --> Call to undefined method App\Controllers\Auth::post()
+#0 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\Auth->login()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}

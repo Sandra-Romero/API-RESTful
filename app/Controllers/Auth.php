@@ -2,6 +2,7 @@
 
 use App\Models\UsuarioModel;
 use CodeIgniter\API\ResponseTrait;
+use Config\Services;
 use Firebase\JWT\JWT;
 
 
@@ -56,8 +57,8 @@ class Auth extends BaseController
     protected function generateJWT($usuario)
     {
         //CUERPO DEL TOKEN 
+        $key = Services::getSecretKey();
         $time = time();//devuelve la fecha actual en enteros
-        $key = services::getSecretKey();
         $payload = [
             'aud' => base_url(),
             'iat' => $time, //como entero el tiempo
