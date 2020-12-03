@@ -1,0 +1,54 @@
+ERROR - 2020-12-01 20:39:23 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2020-12-01 20:39:23 --> Unable to connect to the database.
+#0 /var/www/API-RESTful/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/API-RESTful/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/API-RESTful/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/API-RESTful/app/Controllers/Auth.php(27): CodeIgniter\Model->find()
+#4 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\Auth->login()
+#5 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#9 {main}
+ERROR - 2020-12-01 20:44:45 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2020-12-01 20:44:45 --> Unable to connect to the database.
+#0 /var/www/API-RESTful/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/API-RESTful/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/API-RESTful/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/API-RESTful/app/Controllers/Auth.php(27): CodeIgniter\Model->find()
+#4 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\Auth->login()
+#5 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#9 {main}
+CRITICAL - 2020-12-01 22:58:13 --> Call to undefined function App\Controllers\verifyPassword()
+#0 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\Auth->login()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-12-01 22:59:07 --> Call to undefined function App\Controllers\verifyPassword()
+#0 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\Auth->login()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-12-01 23:00:49 --> Too few arguments to function verifyPassword(), 1 passed in /var/www/API-RESTful/app/Controllers/Auth.php on line 32 and exactly 2 expected
+#0 /var/www/API-RESTful/app/Controllers/Auth.php(32): verifyPassword()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\Auth->login()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#6 {main}
+CRITICAL - 2020-12-01 23:01:03 --> Call to undefined function App\Controllers\password()
+#0 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\Auth->login()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+ERROR - 2020-12-01 23:07:30 --> [ CUSTOM ERROR ] Undefined variable: plainText APPPATH/Helpers/secure_password_helper.php:11

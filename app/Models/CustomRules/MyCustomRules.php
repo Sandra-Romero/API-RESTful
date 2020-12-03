@@ -4,7 +4,8 @@
 use App\Models\ProfesorModel;
 //Clase GradoModel 
 use App\Models\GradoModel;
-
+//Clase RolModel 
+use App\Models\RolModel;
 
 class MyCustomRules
 {
@@ -31,6 +32,19 @@ class MyCustomRules
          $grado = $model->find($id);
  
          return $grado == null ? false : true;
+ 
+     }
+
+     //regla para validar rol_id en la tabla usuarios
+     public function is_valid_rol(int $id): bool
+     {
+         //llamar al modelo RolModel
+         $model = new RolModel();
+ 
+         //que encuentre el rol con el id que se esta pasando
+         $rol = $model->find($id);
+ 
+         return $rol == null ? false : true;
  
      }
 

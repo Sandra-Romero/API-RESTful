@@ -1,0 +1,98 @@
+ERROR - 2020-12-02 09:34:07 --> [ CUSTOM ERROR ] password_verify() expects parameter 2 to be string, array given APPPATH/Helpers/secure_password_helper.php:11
+ERROR - 2020-12-02 09:34:24 --> [ CUSTOM ERROR ] Undefined variable: hash APPPATH/Controllers/Auth.php:32
+CRITICAL - 2020-12-02 10:17:33 --> Call to undefined function App\Controllers\verifyPassword()
+#0 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\Auth->login()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-12-02 10:20:39 --> Call to undefined function App\Controllers\verifyPassword()
+#0 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\Auth->login()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-12-02 10:22:34 --> Call to undefined function App\Controllers\verifyPassword()
+#0 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\Auth->login()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-12-02 10:23:02 --> Call to undefined function App\Controllers\verifyPassword()
+#0 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\Auth->login()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-12-02 18:50:53 --> El encriptador necesita una clave de inicio.
+#0 /var/www/API-RESTful/system/Encryption/Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 /var/www/API-RESTful/system/Config/Services.php(251): CodeIgniter\Encryption\Encryption->initialize()
+#2 /var/www/API-RESTful/app/Controllers/Auth.php(6): CodeIgniter\Config\Services::encrypter()
+#3 /var/www/API-RESTful/system/Autoloader/Autoloader.php(365): require_once('/var/www/API-RE...')
+#4 /var/www/API-RESTful/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#5 /var/www/API-RESTful/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#7 [internal function]: spl_autoload_call()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(872): class_exists()
+#9 /var/www/API-RESTful/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#10 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#13 {main}
+CRITICAL - 2020-12-02 18:51:18 --> El encriptador necesita una clave de inicio.
+#0 /var/www/API-RESTful/system/Encryption/Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 /var/www/API-RESTful/system/Config/Services.php(251): CodeIgniter\Encryption\Encryption->initialize()
+#2 /var/www/API-RESTful/app/Controllers/Auth.php(6): CodeIgniter\Config\Services::encrypter()
+#3 /var/www/API-RESTful/system/Autoloader/Autoloader.php(365): require_once('/var/www/API-RE...')
+#4 /var/www/API-RESTful/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#5 /var/www/API-RESTful/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#7 [internal function]: spl_autoload_call()
+#8 /var/www/API-RESTful/system/CodeIgniter.php(872): class_exists()
+#9 /var/www/API-RESTful/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#10 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#13 {main}
+CRITICAL - 2020-12-02 18:51:37 --> El encriptador necesita una clave de inicio.
+#0 /var/www/API-RESTful/system/Encryption/Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 /var/www/API-RESTful/system/Config/Services.php(251): CodeIgniter\Encryption\Encryption->initialize()
+#2 /var/www/API-RESTful/app/Helpers/secure_password_helper.php(2): CodeIgniter\Config\Services::encrypter()
+#3 /var/www/API-RESTful/system/Common.php(626): include_once('/var/www/API-RE...')
+#4 /var/www/API-RESTful/app/Controllers/Auth.php(14): helper()
+#5 /var/www/API-RESTful/system/CodeIgniter.php(893): App\Controllers\Auth->__construct()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#10 {main}
+CRITICAL - 2020-12-02 19:05:04 --> Function name must be a string
+#0 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\Auth->login()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-12-02 19:07:08 --> Function name must be a string
+#0 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\Auth->login()
+#1 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#5 {main}
+CRITICAL - 2020-12-02 20:22:40 --> Class 'App\Models\CustomRules\RolModel' not found
+#0 /var/www/API-RESTful/system/Validation/Validation.php(325): App\Models\CustomRules\MyCustomRules->is_valid_rol()
+#1 /var/www/API-RESTful/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/API-RESTful/system/Model.php(1505): CodeIgniter\Validation\Validation->run()
+#3 /var/www/API-RESTful/system/Model.php(727): CodeIgniter\Model->validate()
+#4 /var/www/API-RESTful/app/Controllers/API/Usuarios.php(39): CodeIgniter\Model->insert()
+#5 /var/www/API-RESTful/system/CodeIgniter.php(921): App\Controllers\API\Usuarios->create()
+#6 /var/www/API-RESTful/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/API-RESTful/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/API-RESTful/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/API-RESTful/system/Commands/Server/rewrite.php(34): require_once('/var/www/API-RE...')
+#10 {main}
