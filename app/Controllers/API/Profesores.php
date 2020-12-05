@@ -13,11 +13,32 @@ class Profesores extends ResourceController
 	//crear un constructor
 	public function __construct() {
 		$this->model = $this->setModel(new ProfesorModel());
+helper('access_rol');
+
 	}
 
 //LISTAR todos los datos
 	public function index()
 	{
+
+	
+		if(!validateAccess(array('admin'),	$this->$request->getServer('HTTP_AUTHORIZATION')));
+		return $this->failServerError('el rol no tiene acceso a este recurso');
+ 
+          try {
+			  //code...
+			  $profesor = $this->model-findAll();
+			  return $this->respond($profesor);
+
+		  } catch (\Exception $e) {
+			  //throw $th;
+			  return $this->failServerError('Ocurrio un error en el servidor');
+
+		  }
+
+
+
+
 		//que encuentre todos los profesores
 		$Profesores = $this->model->findAll();
 

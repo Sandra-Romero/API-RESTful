@@ -14,16 +14,33 @@ class Grados extends ResourceController
 	//crear un constructor
 	public function __construct() {
 		$this->model = $this->setModel(new GradoModel());
+		helper('access_rol');
 	}
 
 //LISTAR todos los datos
 	public function index()
 	{
+
+        
+		if(!validateAccess(array('admin','grados'),	$this->$request->getServer('HTTP_AUTHORIZATION')));
+		return $this->failServerError('el rol no tiene acceso a este recurso');
+ 
+          try {
+			  //code...
+			  $Grados = $this->model->findAll();
+			  return $this->respond($Grados);
+
+		  } catch (\Exception $e) {
+			  //throw $th;
+			  return $this->failServerError('Ocurrio un error en el servidor');
+
+		  }
+
 		//que encuentre todos los Grados
-		$Grados = $this->model->findAll();
+	
 
 		//metodo respond
-		return $this->respond($Grados);
+
 
 		/*$this->model->select('*');
 		$this->model->from('profesor');

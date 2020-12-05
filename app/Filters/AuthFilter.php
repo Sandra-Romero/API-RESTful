@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Filters;
-
+use App\Model\RolModel;
 use CodeIgniter\Filters\FilterInterface;
 use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\HTTP\ResponseInterface;
@@ -26,7 +26,14 @@ try {
        $arry = explode(' ', $authHeader);
        $jwt = $arry[1];
 
-       jwt::decode($jwt, $key, ['HS256']);
+     $jwt = jwt::decode($jwt, $key, ['HS256']);
+
+     $rolModel = new RolModel();
+     $rol = $rolModel->find($jwt->date->rol);
+
+     if($rol == null)
+     return Services::response()->setStatusCode(ResponseInterface::HTTP_UNAUTHORIZED, 'el rol de JWT  es valido');
+      return true;
     //code...
 } catch (ExpiredException $ee){
 
