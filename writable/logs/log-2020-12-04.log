@@ -1,0 +1,66 @@
+ERROR - 2020-12-04 16:19:40 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2020-12-04 16:19:40 --> Unable to connect to the database.
+#0 C:\API-RESTful\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\API-RESTful\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\API-RESTful\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\API-RESTful\app\Controllers\Auth.php(30): CodeIgniter\Model->first()
+#4 C:\API-RESTful\system\CodeIgniter.php(921): App\Controllers\Auth->login()
+#5 C:\API-RESTful\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\API-RESTful\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\API-RESTful\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\API-RESTful\system\Commands\Server\rewrite.php(34): require_once('C:\\API-RESTful\\...')
+#9 {main}
+ERROR - 2020-12-04 17:32:31 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2020-12-04 17:32:32 --> Unable to connect to the database.
+#0 C:\API-RESTful\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\API-RESTful\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\API-RESTful\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\API-RESTful\app\Controllers\Auth.php(30): CodeIgniter\Model->first()
+#4 C:\API-RESTful\system\CodeIgniter.php(921): App\Controllers\Auth->login()
+#5 C:\API-RESTful\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\API-RESTful\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\API-RESTful\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\API-RESTful\system\Commands\Server\rewrite.php(34): require_once('C:\\API-RESTful\\...')
+#9 {main}
+CRITICAL - 2020-12-04 17:34:11 --> El filtro authFiler debe tener un alias coincidente definido.
+#0 C:\API-RESTful\system\Filters\Filters.php(324): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFiler')
+#1 C:\API-RESTful\system\CodeIgniter.php(376): CodeIgniter\Filters\Filters->enableFilter('authFiler', 'before')
+#2 C:\API-RESTful\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\API-RESTful\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\API-RESTful\system\Commands\Server\rewrite.php(34): require_once('C:\\API-RESTful\\...')
+#5 {main}
+CRITICAL - 2020-12-04 17:36:34 --> Declaration of App\Filters\AuthFilter::after(CodeIgniter\HTTP\RequestInterface $request, ?CodeIgniter\HTTP\ResponseInterface $arguments = NULL) must be compatible with CodeIgniter\Filters\FilterInterface::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-04 17:37:14 --> El filtro authFiler debe tener un alias coincidente definido.
+#0 C:\API-RESTful\system\Filters\Filters.php(324): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFiler')
+#1 C:\API-RESTful\system\CodeIgniter.php(376): CodeIgniter\Filters\Filters->enableFilter('authFiler', 'before')
+#2 C:\API-RESTful\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\API-RESTful\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\API-RESTful\system\Commands\Server\rewrite.php(34): require_once('C:\\API-RESTful\\...')
+#5 {main}
+CRITICAL - 2020-12-04 17:38:29 --> Declaration of App\Filters\AuthFilter::after(CodeIgniter\HTTP\RequestInterface $request, ?CodeIgniter\HTTP\ResponseInterface $arguments = NULL) must be compatible with CodeIgniter\Filters\FilterInterface::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-04 17:40:42 --> Class App\Filters\AuthFilter contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Filters\FilterInterface::after)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-04 17:42:45 --> Undefined class constant 'HTTP_UNAUTHORIZED'
+#0 C:\API-RESTful\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\API-RESTful\system\CodeIgniter.php(385): CodeIgniter\Filters\Filters->run('api/profesores', 'before')
+#2 C:\API-RESTful\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\API-RESTful\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\API-RESTful\system\Commands\Server\rewrite.php(34): require_once('C:\\API-RESTful\\...')
+#5 {main}
+ERROR - 2020-12-04 18:03:56 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2020-12-04 18:03:56 --> Unable to connect to the database.
+#0 C:\API-RESTful\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\API-RESTful\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\API-RESTful\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\API-RESTful\app\Controllers\Auth.php(30): CodeIgniter\Model->first()
+#4 C:\API-RESTful\system\CodeIgniter.php(921): App\Controllers\Auth->login()
+#5 C:\API-RESTful\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\API-RESTful\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\API-RESTful\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\API-RESTful\system\Commands\Server\rewrite.php(34): require_once('C:\\API-RESTful\\...')
+#9 {main}
