@@ -18,17 +18,15 @@ class Auth extends BaseController
 
 	public function login()
 	{
+        try 
 
-        try {
+        {
            $username = $this->request->getPost('username');
            $password = $this->request->getPost('password');
         
-           
-		   $usuarioModel = new UsuarioModel();
-		   
-	
+           $usuarioModel = new UsuarioModel();
            $validateUsuario = $usuarioModel->where('username', $username)->first();
-	
+
            if($validateUsuario == null)
            return $this->failNotFound('Usuario no encontrado');
 

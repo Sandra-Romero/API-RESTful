@@ -1,0 +1,4 @@
+ERROR - 2020-12-03 21:35:13 --> [ CUSTOM ERROR ] password_verify() expects parameter 2 to be string, array given APPPATH/Controllers/Auth.php:35
+ERROR - 2020-12-03 21:35:21 --> [ CUSTOM ERROR ] password_verify() expects parameter 2 to be string, array given APPPATH/Controllers/Auth.php:35
+ERROR - 2020-12-03 21:35:28 --> [ CUSTOM ERROR ] password_verify() expects parameter 2 to be string, array given APPPATH/Controllers/Auth.php:35
+ERROR - 2020-12-03 21:36:39 --> [ CUSTOM ERROR ] password_verify() expects parameter 2 to be string, array given APPPATH/Helpers/secure_password_helper.php:12
