@@ -17,11 +17,24 @@ class Usuarios extends ResourceController
 //LISTAR todos los datos
 	public function index()
 	{
-		//que encuentre todos los Usuario
-		$Usuarios = $this->model->findAll();
 
-		//metodo respond
-		return $this->respond($Usuarios);
+
+		if(!validateAccess(array('admin'),	$this->$request->getServer('HTTP_AUTHORIZATION')));
+		return $this->failServerError('el rol no tiene acceso a este recurso');
+ 
+          try {
+			  //code...
+			  $Usuarios = $this->model->findAll();
+			  return $this->respond($Usuarios);
+
+		  } catch (\Exception $e) {
+			  //throw $th;
+			  return $this->failServerError('Ocurrio un error en el servidor');
+
+		  }
+
+
+	
 
 	}
 
