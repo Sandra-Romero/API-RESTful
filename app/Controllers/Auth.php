@@ -61,6 +61,13 @@ class Auth extends BaseController
             'aud' => base_url(),
             'iat' => $time, //como entero el tiempo
             'exp' => $time + 60, //como entero el tiempo cuando exira el token 
+            'date' => [
+
+                'nombre' => $usuario['nombre'],
+                'username'=> $usuario['username'],
+                'rol' => $usuario['rol_id']
+
+            ]
         ];
 
         //CREAR EL TOKEN 

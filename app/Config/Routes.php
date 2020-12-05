@@ -34,7 +34,7 @@ $routes->get('/', 'Home::index');
 $routes->post('/auth/login', 'Auth::login');
 
 //crear grupos de rutas 
-$routes->group('api', ['namespace' => 'App\Controllers\API'], function($routes){
+$routes->group('api', ['namespace' => 'App\Controllers\API', 'filter' => 'authFilter'], function($routes){
 	//rutas de profesores
 	$routes->get('profesores', 'Profesores::index');
 	$routes->post('profesores/create', 'Profesores::create');

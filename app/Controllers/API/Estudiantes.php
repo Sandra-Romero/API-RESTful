@@ -17,11 +17,26 @@ class Estudiantes extends ResourceController
 //LISTAR todos los datos
 	public function index()
 	{
+
+		
+		if(!validateAccess(array('admin','grados','estudiante'),	$this->$request->getServer('HTTP_AUTHORIZATION')));
+		return $this->failServerError('el rol no tiene acceso a este recurso');
+ 
+          try {
+			  //code...
+			  $Estudiantes = $this->model->findAll();
+			  return $this->respond($Estudiantes);
+
+		  } catch (\Exception $e) {
+			  //throw $th;
+			  return $this->failServerError('Ocurrio un error en el servidor');
+
+		  }
 		//que encuentre todos los Estudiantes
-		$Estudiantes = $this->model->findAll();
+	
 
 		//metodo respond
-		return $this->respond($Estudiantes);
+		
 	}
 
 //INSERTAR
